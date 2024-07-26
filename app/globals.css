@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-underline {
+  @apply relative overflow-hidden;
+}
+
+.link-underline::after {
+  content: '';
+  @apply absolute bottom-0 left-[-100%] h-[2px] w-full bg-cyan-500;
+  transition: left 0.3s ease-in-out;
+}
+
+.link-underline:hover::after {
+  left: 0;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.text-shine {
+  @apply inline-flex;
+  background-image: linear-gradient(110deg, #06b6d4, 45%, #9ef9ff, 55%, #06b6d4);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 3s infinite linear;
+}
+
+.custom-shadow:hover {
+  box-shadow: 0px 0px 100px 0px rgba(6,182,212,0.8);
+}
+
+.custom-shadow-button:hover {
+  box-shadow: 0px 0px 30px 0px rgba(6,182,212,0.8);
+}

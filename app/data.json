@@ -1,0 +1,124 @@
+{   
+    "navbarItems": [
+        {
+            "href": "/about",
+            "text": "Sobre mí"
+        },
+        {
+            "href":"/projects",
+            "text":"Proyectos"
+        },
+        {
+            "href":"/contact",
+            "text":"Contacto"
+        }
+    ],
+    "tecnologyItems": [
+        {
+            "icon": {
+                "src": "/portfolio/js01-svgrepo-com.svg",
+                "alt": "JavaScript Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/react-svgrepo-com.svg",
+                "alt": "React Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/nextjs-fill-svgrepo-com.svg",
+                "alt": "NextJS Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/python-127-svgrepo-com.svg",
+                "alt": "Python Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/java-svgrepo-com.svg",
+                "alt": "Java Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/mysql-svgrepo-com.svg",
+                "alt": "MySQL Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/docker-svgrepo-com.svg",
+                "alt": "Docker Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/ai-svgrepo-com.svg",
+                "alt": "AI Icono"
+            }
+        }
+    ],
+    "projectsItems": [
+        {
+            "image": {
+                "src": "/portfolio/prueba.jpg",
+                "alt": "Proyecto 1"
+            },
+            "title": "The Coldest Sunset",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "tags": [
+                "React",
+                "IA",
+                "Python"
+            ]
+        },
+        {
+            "image": {
+                "src": "/portfolio/prueba.jpg",
+                "alt": "Proyecto 2"
+            },
+            "title": "The Coldest Sunset",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "tags": [
+                "React",
+                "IA",
+                "Python"
+            ]
+        },
+        {
+            "image": {
+                "src": "/portfolio/prueba.jpg",
+                "alt": "Proyecto 3"
+            },
+            "title": "The Coldest Sunset",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "tags": [
+                "React",
+                "IA",
+                "Python"
+            ]
+        }
+    ],
+    "experienceItems": [
+        {
+            "title": "Lead Software Engineer at Google",
+            "date": "Nov 2019 - Present",
+            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+        },
+        {
+            "title": "Lead Software Engineer at Google",
+            "date": "Nov 2019 - Present",
+            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+        },
+        {
+            "title": "Lead Software Engineer at Google",
+            "date": "Nov 2019 - Present",
+            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+        }
+    ]
+}
