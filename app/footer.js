@@ -13,7 +13,7 @@ export default function Footer() {
                         Dispuesto a aportar valor al equipo o proyecto, no dudes en ponerte en contacto conmigo.
                     </p>
                 </article>
-                <article className="flex flex-col flex-shrink-0 items-center justify-center sm:items-start">
+                <article id='contacto' className="flex flex-col flex-shrink-0 items-center justify-center sm:items-start">
                     <a href='mailto:manolomartinezbernal@gmail.com' className="inline-flex items-center gap-4 hover:scale-105 hover:text-cyan-500  transition-all duration-300">
                         <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" stroke="currentColor">
                             <g id="SVGRepo_bgCarrier" strokeWidth="0" />

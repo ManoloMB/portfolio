@@ -13,11 +13,11 @@ export default function Navbar({ items }) {
     };
 
     return (
-        <header className="border-b-2 border-b-white/5 ">
+        <header className="fixed top-0 left-0 right-0 z-10 border-b-2 border-b-white/5 bg-slate-900 bg-fixed bg-cover bg-custom-gradient">
             <nav className='max-w-screen-lg py-6 px-10  mx-auto'>
                 <div className='hidden sm:flex items-center justify-center'>
                     <div className="flex-shrink">
-                        <Link href="/about" className="font-semibold text-xl">MMB</Link>
+                        <Link href="#sobremi" className="font-semibold text-xl">MMB</Link>
                     </div>
                     <div className='flex-grow'></div>
                     <div className="flex-shrink space-x-4">

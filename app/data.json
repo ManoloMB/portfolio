@@ -1,16 +1,16 @@
-{   
+{
     "navbarItems": [
         {
-            "href": "/about",
+            "href": "#sobremi",
             "text": "Sobre mí"
         },
         {
-            "href":"/projects",
-            "text":"Proyectos"
+            "href": "#proyectos",
+            "text": "Proyectos"
         },
         {
-            "href":"/contact",
-            "text":"Contacto"
+            "href": "#contacto",
+            "text": "Contacto"
         }
     ],
     "tecnologyItems": [
@@ -66,59 +66,59 @@
     "projectsItems": [
         {
             "image": {
-                "src": "/portfolio/prueba.jpg",
-                "alt": "Proyecto 1"
+                "src": "/portfolio/fall-detector.jpg",
+                "alt": "TFG - FallDetector"
             },
-            "title": "The Coldest Sunset",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "title": "TFG - FallDetector",
+            "text": "Desarrollo de un sistema wearable que detecta caídas en personas mayores. Implementé y entrené una red neuronal que procesa datos de sensores inerciales en un reloj. La red neuronal detecta caídas y notifica a los familiares de inmediato. Finalizado con Matrícula de Honor.",
             "tags": [
-                "React",
-                "IA",
-                "Python"
+                "Python",
+                "TensorFlow",
+                "Arduino"
             ]
         },
         {
             "image": {
-                "src": "/portfolio/prueba.jpg",
-                "alt": "Proyecto 2"
+                "src": "/portfolio/instante-eventos.png",
+                "alt": "Pagina Web All Instante Eventos 360"
             },
-            "title": "The Coldest Sunset",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "title": "Web - All Instante",
+            "text": "Desarrollé una página web para una empresa de eventos y alquiler de fotomatones 360. El proyecto se realizó utilizando Next.js y TailwindCSS para ofrecer una experiencia de usuario fluida y moderna.",
             "tags": [
-                "React",
-                "IA",
-                "Python"
+                "Next.js",
+                "TailwindCSS"
             ]
         },
         {
             "image": {
-                "src": "/portfolio/prueba.jpg",
-                "alt": "Proyecto 3"
+                "src": "/portfolio/artemis-canvas.jpg",
+                "alt": "Ecommerce ArtemisCanvas"
             },
-            "title": "The Coldest Sunset",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "title": "Artemis Canvas",
+            "text": "Creación de una tienda online de ropa con diseños artísticos. Además de la configuración de pasarelas de pago, API's externas y base de datos. Utilicé WordPress y WooCommerce para el desarrollo, junto con PHP y MySQL para la gestión de bases de datos y funcionalidades personalizadas.",
             "tags": [
-                "React",
-                "IA",
-                "Python"
+                "WordPress",
+                "WooCommerce",
+                "PHP",
+                "MySQL"
             ]
         }
     ],
     "experienceItems": [
         {
-            "title": "Lead Software Engineer at Google",
-            "date": "Nov 2019 - Present",
-            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+            "title": "Desarrollador Web",
+            "date": "Junio 2024",
+            "description": "Desarrollo web con Next.js y Tailwind CSS para empresa de eventos y alquiler de fotomatones."
         },
         {
-            "title": "Lead Software Engineer at Google",
-            "date": "Nov 2019 - Present",
-            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+            "title": "Prácticas Universitarias",
+            "date": "2023 - 2024",
+            "description": "Implementación de Docker y migración de repositorios a Git. Automatización de CI/CD con GitLab y Bitbucket."
         },
         {
-            "title": "Lead Software Engineer at Google",
-            "date": "Nov 2019 - Present",
-            "description": "As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide."
+            "title": "Desarrollador Web - Ecommerce",
+            "date": "2022 - 2023",
+            "description": "Desarrollo y lanzamiento de ecommerce en WordPress. Gestión de bases de datos relacionales. Diseño responsivo de interfaces de usuario para ecommerce."
         }
     ]
 }
