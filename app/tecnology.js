@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function Tecnology({items}) {
     return (
-        <section className='text-center'>
-        <p className='font-bold text-xl mt-10'>Tecnologías</p>
-            <div className='flex flex-wrap justify-center gap-x-12 gap-y-6 mt-12'>
+        <section className='text-center py-10'>
+        <p className='font-bold text-xl mb-12'>Tecnologías</p>
+            <div className='flex flex-wrap justify-center gap-x-12 gap-y-6'>
                 {items.map((item, index) => (
                     <div key={index}>
                         <Image

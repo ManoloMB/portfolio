@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Projects({ items }) {
   return (
-    <div id="proyectos" className='items-center justify-center my-10'>
-      <h2 className="font-bold text-xl mb-5 text-center">Proyectos</h2>
+    <div id="proyectos" className='items-center justify-center pb-10'>
+      <h2 className="font-bold text-xl mb-12 text-center">Proyectos</h2>
       <section className="grid sm:grid-cols-3 grid-cols-1 gap-4">
         {items.map((item, index) => (
           <article key={index} className="bg-slate-950 w-full rounded-3xl shadow-lg overflow-hidden p-1">

@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar items={data.navbarItems} />
       <main className='max-w-screen-lg px-10 mx-auto'>
         <About />
-        <Tecnology items={data.tecnologyItems}/>
         <Projects items={data.projectsItems} />
+        <Tecnology items={data.tecnologyItems}/>
         <Experience items={data.experienceItems} />
       </main>
       <Footer />

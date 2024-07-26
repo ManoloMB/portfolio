@@ -1,7 +1,7 @@
 export default function Experience({ items }) {
     return (
-        <div className='items-center justify-center pb-10'>
-            <h2 className="font-bold text-xl mb-6">Experiencia</h2>
+        <div className='items-center justify-center py-10'>
+            <h2 className="font-bold text-xl text-center mb-12">Experiencia</h2>
             {items.map((item, index) => (
                 <div key={index}>
                     <div className="sm:flex items-center mt-8">
