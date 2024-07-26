@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="border-t-2 border-t-white/5 py-5 items-center">
+        <footer className="border-t-2 border-t-white/5 py-10 items-center">
             <div className='max-w-screen-lg px-10 mx-auto'>
             <h2 className="text-3xl font-bold pb-5">Contacto</h2>
             <section className="flex sm:flex-row-reverse flex-col sm:gap-10 gap-5">
