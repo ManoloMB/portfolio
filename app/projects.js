@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects({ items }) {
   return (
@@ -27,10 +28,10 @@ export default function Projects({ items }) {
             </p>
           </div>
           <div className="px-6 py-2 flex flex-wrap gap-4">
-            {item.tags.map(tag => (
-            <a key={tag} className="bg-slate-800/70 rounded-full text-sm font-semibold px-3 py-1 hover:scale-105">
-              {tag}
-            </a>
+            {item.tags.map((tag,indexTag)=> (
+            <Link href={tag.url} key={indexTag} target="_blank" className="bg-slate-800/70 rounded-full text-sm font-semibold px-3 py-1 hover:scale-105">
+              {tag.name}
+            </Link>
             ))}
            </div>
            </article>
