@@ -72,9 +72,18 @@
             "title": "TFG - FallDetector",
             "text": "Desarrollo de un sistema wearable que detecta caídas en personas mayores. Implementé y entrené una red neuronal que procesa datos de sensores inerciales en un reloj. La red neuronal detecta caídas y notifica a los familiares de inmediato. Finalizado con Matrícula de Honor.",
             "tags": [
-                "Python",
-                "TensorFlow",
-                "Arduino"
+                {
+                    "name": "Python",
+                    "url": "https://www.python.org"
+                },
+                {
+                    "name": "TensorFlow",
+                    "url": "https://www.tensorflow.org"
+                },
+                {
+                    "name": "Arduino",
+                    "url": "https://www.arduino.cc"
+                }
             ]
         },
         {
@@ -85,8 +94,14 @@
             "title": "Web - All Instante",
             "text": "Desarrollé una página web para una empresa de eventos y alquiler de fotomatones 360. El proyecto se realizó utilizando Next.js y TailwindCSS para ofrecer una experiencia de usuario fluida y moderna.",
             "tags": [
-                "Next.js",
-                "TailwindCSS"
+                {
+                    "name": "Next.js",
+                    "url": "https://nextjs.org"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "url": "https://tailwindcss.com"
+                }
             ]
         },
         {
@@ -97,10 +112,22 @@
             "title": "Artemis Canvas",
             "text": "Creación de una tienda online de ropa con diseños artísticos. Además de la configuración de pasarelas de pago, API's externas y base de datos. Utilicé WordPress y WooCommerce para el desarrollo, junto con PHP y MySQL para la gestión de bases de datos y funcionalidades personalizadas.",
             "tags": [
-                "WordPress",
-                "WooCommerce",
-                "PHP",
-                "MySQL"
+                {
+                    "name": "WordPress",
+                    "url": "https://wordpress.org"
+                },
+                {
+                    "name": "WooCommerce",
+                    "url": "https://woocommerce.com"
+                },
+                {
+                    "name": "PHP",
+                    "url": "https://www.php.net"
+                },
+                {
+                    "name": "MySQL",
+                    "url": "https://www.mysql.com"
+                }
             ]
         }
     ],
