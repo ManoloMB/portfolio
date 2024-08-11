@@ -1,0 +1,194 @@
+{
+    "navbarItems": [
+        {
+            "href": "/#sobremi",
+            "text": "Sobre mí"
+        },
+        {
+            "href": "/#proyectos",
+            "text": "Proyectos"
+        },
+        {
+            "href": "/#contacto",
+            "text": "Contacto"
+        }
+    ],
+    "tecnologyItems": [
+        {
+            "icon": {
+                "src": "/portfolio/js01-svgrepo-com.svg",
+                "alt": "JavaScript Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/react-svgrepo-com.svg",
+                "alt": "React Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/nextjs-fill-svgrepo-com.svg",
+                "alt": "NextJS Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/python-127-svgrepo-com.svg",
+                "alt": "Python Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/java-svgrepo-com.svg",
+                "alt": "Java Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/mysql-svgrepo-com.svg",
+                "alt": "MySQL Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/docker-svgrepo-com.svg",
+                "alt": "Docker Icono"
+            }
+        },
+        {
+            "icon": {
+                "src": "/portfolio/ai-svgrepo-com.svg",
+                "alt": "AI Icono"
+            }
+        }
+    ],
+    "projectsItems": [
+        {
+            "image": {
+                "src": "/portfolio/fall-detector.jpg",
+                "alt": "TFG - FallDetector"
+            },
+            "url": "/tfg",
+            "title": "TFG - FallDetector",
+            "text": "Desarrollo de un sistema wearable que detecta caídas en personas mayores. Implementé y entrené una red neuronal que procesa datos de sensores inerciales en un reloj. La red neuronal detecta caídas y notifica a los familiares de inmediato. Finalizado con Matrícula de Honor.",
+            "tags": [
+                {
+                    "name": "Python",
+                    "url": "https://www.python.org"
+                },
+                {
+                    "name": "TensorFlow",
+                    "url": "https://www.tensorflow.org"
+                },
+                {
+                    "name": "Arduino",
+                    "url": "https://www.arduino.cc"
+                }
+            ]
+        },
+        {
+            "image": {
+                "src": "/portfolio/instante-eventos.png",
+                "alt": "Pagina Web All Instante Eventos 360"
+            },
+            "url": "https://allinstante.netlify.app/",
+            "title": "Web - All Instante",
+            "text": "Desarrollé una página web para una empresa de eventos y alquiler de fotomatones 360. El proyecto se realizó utilizando Next.js y TailwindCSS para ofrecer una experiencia de usuario fluida y moderna.",
+            "tags": [
+                {
+                    "name": "Next.js",
+                    "url": "https://nextjs.org"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "url": "https://tailwindcss.com"
+                }
+            ]
+        },
+        {
+            "image": {
+                "src": "/portfolio/artemis-canvas.jpg",
+                "alt": "Ecommerce ArtemisCanvas"
+            },
+            "url": "https://artemiscanvas.com/",
+            "title": "Artemis Canvas",
+            "text": "Creación de una tienda online de ropa con diseños artísticos. Además de la configuración de pasarelas de pago, API's externas y base de datos. Utilicé WordPress y WooCommerce para el desarrollo, junto con PHP y MySQL para la gestión de bases de datos y funcionalidades personalizadas.",
+            "tags": [
+                {
+                    "name": "WordPress",
+                    "url": "https://wordpress.org"
+                },
+                {
+                    "name": "WooCommerce",
+                    "url": "https://woocommerce.com"
+                },
+                {
+                    "name": "PHP",
+                    "url": "https://www.php.net"
+                },
+                {
+                    "name": "MySQL",
+                    "url": "https://www.mysql.com"
+                }
+            ]
+        }
+    ],
+    "experienceItems": [
+        {
+            "title": "Desarrollador Web",
+            "date": "Junio 2024",
+            "description": "Desarrollo web con Next.js y Tailwind CSS para empresa de eventos y alquiler de fotomatones."
+        },
+        {
+            "title": "Prácticas Universitarias",
+            "date": "2023 - 2024",
+            "description": "Implementación de Docker y migración de repositorios a Git. Automatización de CI/CD con GitLab y Bitbucket."
+        },
+        {
+            "title": "Desarrollador Web - Ecommerce",
+            "date": "2022 - 2023",
+            "description": "Desarrollo y lanzamiento de ecommerce en WordPress. Gestión de bases de datos relacionales. Diseño responsivo de interfaces de usuario para ecommerce."
+        }
+    ],
+    "actualProjectsItems": [
+        {
+            "image": {
+                "src": "/portfolio/imagenBarberia.jpg",
+                "alt": "Sistema de Gestión de Citas para Barbería"
+            },
+            "url": "#",
+            "title": "Sistema de Gestión de Citas para Barbería",
+            "text": {
+                "text1": "Estoy trabajando en una plataforma web que facilita la gestión de citas y reservas para una barbería. Los usuarios pueden explorar los servicios, elegir el que prefieran y reservar su cita en línea. El dueño de la barbería tiene acceso a herramientas para administrar citas, gestionar la información del negocio y consultar estadísticas.",
+                "text2": "El proyecto está en desarrollo activo, con las funciones principales ya implementadas. Próximamente, añadiré mejoras en el sistema de estadísticas y optimización del rendimiento."
+            },
+            "tags": [
+                {
+                    "name": "Python",
+                    "url": "https://www.python.org"
+                },
+                {
+                    "name": "Django",
+                    "url": "https://www.djangoproject.com/"
+                },
+                {
+                    "name": "Django Rest",
+                    "url": "https://www.django-rest-framework.org/"
+                },
+                {
+                    "name": "Next.js",
+                    "url": "https://nextjs.org"
+                },
+                {
+                    "name": "TailwindCSS",
+                    "url": "https://tailwindcss.com"
+                },
+                {
+                    "name": "MySQL",
+                    "url": "https://www.mysql.com"
+                }
+            ]
+        }
+    ]
+}

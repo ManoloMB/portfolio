@@ -1,0 +1,92 @@
+[
+    {
+      "Umbral": 0.1,
+      "Precision": 0.5998528870908422,
+      "Recall": 0.9881853983641321,
+      "F1 Score": 0.746538505549834,
+      "True Negatives": 62580,
+      "False Positives": 2176,
+      "False Negatives": 39,
+      "True Positives": 3262
+    },
+    {
+      "Umbral": 0.2,
+      "Precision": 0.7177044094837137,
+      "Recall": 0.9812178127840049,
+      "F1 Score": 0.8290248272331713,
+      "True Negatives": 63482,
+      "False Positives": 1274,
+      "False Negatives": 62,
+      "True Positives": 3239
+    },
+    {
+      "Umbral": 0.30000000000000004,
+      "Precision": 0.7525075810590156,
+      "Recall": 0.9772796122387155,
+      "F1 Score": 0.8502899314707433,
+      "True Negatives": 63695,
+      "False Positives": 1061,
+      "False Negatives": 75,
+      "True Positives": 3226
+    },
+    {
+      "Umbral": 0.4,
+      "Precision": 0.7833617955598926,
+      "Recall": 0.9727355346864587,
+      "F1 Score": 0.8678378378378379,
+      "True Negatives": 63868,
+      "False Positives": 888,
+      "False Negatives": 90,
+      "True Positives": 3211
+    },
+    {
+      "Umbral": 0.5,
+      "Precision": 0.81511746680286,
+      "Recall": 0.9669797031202666,
+      "F1 Score": 0.8845780795344326,
+      "True Negatives": 64032,
+      "False Positives": 724,
+      "False Negatives": 109,
+      "True Positives": 3192
+    },
+    {
+      "Umbral": 0.6,
+      "Precision": 0.8562533838657282,
+      "Recall": 0.9581944865192366,
+      "F1 Score": 0.9043602573266619,
+      "True Negatives": 64225,
+      "False Positives": 531,
+      "False Negatives": 138,
+      "True Positives": 3163
+    },
+    {
+      "Umbral": 0.7000000000000001,
+      "Precision": 0.8973699256718125,
+      "Recall": 0.9509239624356256,
+      "F1 Score": 0.9233710839829387,
+      "True Negatives": 64397,
+      "False Positives": 359,
+      "False Negatives": 162,
+      "True Positives": 3139
+    },
+    {
+      "Umbral": 0.8,
+      "Precision": 0.9226666666666666,
+      "Recall": 0.9433504998485307,
+      "F1 Score": 0.932893948472139,
+      "True Negatives": 64495,
+      "False Positives": 261,
+      "False Negatives": 187,
+      "True Positives": 3114
+    },
+    {
+      "Umbral": 0.9,
+      "Precision": 0.9453246349798073,
+      "Recall": 0.9218418661011815,
+      "F1 Score": 0.9334355828220859,
+      "True Negatives": 64580,
+      "False Positives": 176,
+      "False Negatives": 258,
+      "True Positives": 3043
+    }
+  ]
