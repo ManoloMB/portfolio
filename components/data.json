@@ -1,15 +1,15 @@
 {
     "navbarItems": [
         {
-            "href": "/#sobremi",
+            "href": "//#sobremi",
             "text": "Sobre mí"
         },
         {
-            "href": "/#proyectos",
+            "href": "//#proyectos",
             "text": "Proyectos"
         },
         {
-            "href": "/#contacto",
+            "href": "//#contacto",
             "text": "Contacto"
         }
     ],
