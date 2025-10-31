@@ -66,6 +66,52 @@
     "projectsItems": [
         {
             "image": {
+                "src": "/portfolio/rag-project.jpg",
+                "alt": "Proyecto RAG con agentes LLM"
+            },
+            "url": "/rag-project",
+            "title": "Proyecto de Prácticas - Sistema RAG con Agentes LLM",
+            "text": "Implementé un sistema Retrieval-Augmented Generation (RAG) usando agentes LLM para mejorar la consulta y recuperación de documentos empresariales, combinando técnicas de IA y gestión documental.",
+            "tags": [
+                {  
+                    "name": "OpenAI", 
+                    "url": "https://openai.com" 
+                },
+                {  
+                    "name": "LangGraph",
+                    "url": "https://langgraph.ai"
+                },
+                { 
+                    "name": "RAG",
+                    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+                }
+            ]
+        },
+        {
+            "image": {
+                "src": "/portfolio/tfm.jpg",
+                "alt": "TFM - Traffic Accident Prediction"
+            },
+            "url": "/tfm",
+            "title": "TFM - Predicción de Accidentes de Tráfico",
+            "text": "Desarrollé un modelo predictivo utilizando técnicas de machine learning para anticipar la gravedad de accidentes de tráfico. El proyecto incluyó tratamiento de datos desbalanceados y optimización mediante GridSearch.",
+            "tags": [
+                { 
+                    "name": "Python", 
+                    "url": "https://www.python.org" 
+                },
+                { 
+                    "name": "XGBoost", 
+                    "url": "https://xgboost.ai"
+                },
+                { 
+                    "name": "Machine Learning", 
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning"
+                }
+            ]
+        },
+        {
+            "image": {
                 "src": "/portfolio/fall-detector.jpg",
                 "alt": "TFG - FallDetector"
             },
@@ -92,7 +138,7 @@
                 "src": "/portfolio/instante-eventos.png",
                 "alt": "Pagina Web All Instante Eventos 360"
             },
-            "url": "https://allinstante.netlify.app/",
+            "url": "https://www.allinstante360.com/",
             "title": "Web - All Instante",
             "text": "Desarrollé una página web para una empresa de eventos y alquiler de fotomatones 360. El proyecto se realizó utilizando Next.js y TailwindCSS para ofrecer una experiencia de usuario fluida y moderna.",
             "tags": [
@@ -136,18 +182,33 @@
     ],
     "experienceItems": [
         {
+            "title": "Artificial Intelligence Engineer | Spai Innova",
+            "date": "Septiembre 2025 - Presente",
+            "description": "Lidero la implantación de soluciones de inteligencia artificial en productos existentes, desarrollando proyectos con agentes inteligentes y modelos LLM para optimizar procesos empresariales."
+        },
+                {
+            "title": "AI Engineering Intern | Sopra Steria",
+            "date": "Abril 2025 - Mayo 2025",
+            "description": "Prácticas de Máster enfocadas en sistemas RAG y agentes LLM, implementando soluciones de generación asistida por recuperación de información para mejorar consultas empresariales."
+        },
+        {
+            "title": "Java Software Developer | Spai Innova",
+            "date": "Noviembre 2024 - Septiembre 2025",
+            "description": "Desarrollo y mantenimiento de software utilizando Java para soluciones empresariales, participando en diferentes fases del ciclo de vida del software."
+        },
+        {
             "title": "Desarrollador Web",
-            "date": "Junio 2024",
+            "date": "Junio 2024 - Agosto 2024",
             "description": "Desarrollo web con Next.js y Tailwind CSS para empresa de eventos y alquiler de fotomatones."
         },
         {
-            "title": "PRiSE - Prácticas",
-            "date": "2023 - 2024",
+            "title": "Prácticas | PRiSE",
+            "date": "Noviembre 2023 - Enero 2024",
             "description": "Implementación de Docker y migración de repositorios a Git. Automatización de CI/CD con GitLab y Bitbucket."
         },
         {
-            "title": "Desarrollador Web - Ecommerce",
-            "date": "2022 - 2023",
+            "title": "Desarrollador Web de Ecommerce",
+            "date": "Marzo 2022 - Julio 2023",
             "description": "Desarrollo y lanzamiento de ecommerce en WordPress. Gestión de bases de datos relacionales. Diseño responsivo de interfaces de usuario para ecommerce."
         }
     ],
@@ -155,38 +216,30 @@
         {
             "image": {
                 "src": "/portfolio/imagenBarberia.jpg",
-                "alt": "Sistema de Gestión de Citas para Barbería"
+                "alt": "Chatbot IA para Bufetes de Abogados"
             },
             "url": "#",
-            "title": "Sistema de Gestión de Citas para Barbería",
+            "title": "Chatbot SaaS para Bufetes con IA y RAG",
             "text": {
-                "text1": "Estoy trabajando en una plataforma web que facilita la gestión de citas y reservas para una barbería. Los usuarios pueden explorar los servicios, elegir el que prefieran y reservar su cita en línea. El dueño de la barbería tiene acceso a herramientas para administrar citas, gestionar la información del negocio y consultar estadísticas.",
-                "text2": "El proyecto está en desarrollo activo, con las funciones principales ya implementadas. Próximamente, añadiré mejoras en el sistema de estadísticas y optimización del rendimiento."
+                "text1": "Actualmente desarrollo un SaaS innovador basado en inteligencia artificial, que combina agentes inteligentes y técnicas RAG para crear un chatbot avanzado.",
+                "text2": "Este chatbot está diseñado para bufetes de abogados, con conocimiento actualizado de toda la legislación española y una base sólida de jurisprudencia, optimizando la asistencia legal diaria."
             },
             "tags": [
                 {
-                    "name": "Python",
-                    "url": "https://www.python.org"
+                    "name": "OpenAI",
+                    "url": "https://openai.com"
                 },
                 {
-                    "name": "Django",
-                    "url": "https://www.djangoproject.com/"
+                    "name": "LangGraph",
+                    "url": "https://langgraph.ai"
                 },
                 {
-                    "name": "Django Rest",
-                    "url": "https://www.django-rest-framework.org/"
+                    "name": "RAG",
+                    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
                 },
                 {
-                    "name": "Next.js",
-                    "url": "https://nextjs.org"
-                },
-                {
-                    "name": "TailwindCSS",
-                    "url": "https://tailwindcss.com"
-                },
-                {
-                    "name": "MySQL",
-                    "url": "https://www.mysql.com"
+                    "name": "Agentes Inteligentes",
+                    "url": "#"
                 }
             ]
         }

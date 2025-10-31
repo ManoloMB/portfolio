@@ -9,9 +9,10 @@ export default function Footer() {
             <section className="flex sm:flex-row-reverse flex-col sm:gap-10 gap-5">
                 <article className="flex flex-col">
                     <p>
-                        Ingeniero Informático en búsqueda de nuevas oportunidades profesionales que me permitan aplicar mis habilidades y seguir creciendo en mi carrera.</p>
+                        Ingeniero Informático con experiencia en inteligencia artificial y desarrollo de software, abierto a nuevas oportunidades profesionales donde aplicar y seguir ampliando mis habilidades.
+                    </p>
                     <p className='pt-2'>
-                        Dispuesto a aportar valor al equipo o proyecto, no dudes en ponerte en contacto conmigo.
+                        Estoy dispuesto a aportar valor real a equipos y proyectos innovadores. No dudes en contactarme para colaborar o intercambiar ideas.
                     </p>
                 </article>
                 <article id='contacto' className="flex flex-col flex-shrink-0 items-center justify-center sm:items-start">

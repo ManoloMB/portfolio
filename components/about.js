@@ -10,9 +10,11 @@ export default function About() {
                         <span className='text-cyan-400'> soy Manuel Martínez</span>
                     </h1>
                     <h5 className="text-shine text-transparent pt-2 text-xl font-bold">
-                        Ingeniero Informático
+                        Ingeniero Informático - IA & Big Data
                     </h5>
-                    <p className="text-lg pt-10">Cuento con experiencia en el desarrollo de software y sistemas embebidos. Tengo gran capacidad de adaptación y aprendizaje de nuevas tecnologías y metodologías, facilidad para trabajar en equipo y proactivo en la búsqueda de soluciones a diferentes problemas.</p>
+                    <p className="text-lg pt-10">Actualmente lidero proyectos de inteligencia artificial, diseñando e implementando soluciones innovadoras para integrar IA en productos empresariales.
+
+Cuento con experiencia en desarrollo de software y una sólida formación en análisis y visualización de datos. Me caracterizo por mi capacidad de aprendizaje rápido, adaptación, trabajo en equipo y enfoque proactivo para resolver retos tecnológicos complejos.</p>
                 </article>
                 <article className='flex flex-col items-center justify-center'>
                     <Link href="https://www.linkedin.com/in/manuel-martinez-bernal/">
