@@ -6,6 +6,7 @@ import Experience from '@/components/experience';
 import ActualProjects from '@/components/actualProjects';
 import Footer from '@/components/footer';
 import data from '@/components/data.json';
+import EmbeddedChat from '@/components/embbedChat';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Navbar items={data.navbarItems} />
       <main className='max-w-screen-lg px-10 mx-auto'>
         <About />
+        <EmbeddedChat />
         <Projects items={data.projectsItems} />
         <Tecnology items={data.tecnologyItems}/>
         <Experience items={data.experienceItems} />
