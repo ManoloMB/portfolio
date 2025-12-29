@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "category": "Frontend",
+      "icon": "🎨",
+      "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"]
+    },
+    {
+      "category": "Backend",
+      "icon": "⚙️",
+      "skills": ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"]
+    },
+    {
+      "category": "DevOps & Tools",
+      "icon": "🔧",
+      "skills": ["Docker", "AWS", "Git", "CI/CD", "Linux"]
+    },
+    {
+      "category": "Soft Skills",
+      "icon": "👥",
+      "skills": ["Leadership", "Communication", "Problem Solving", "Mentoring", "Agile"]
+    }
+  ]
+}
