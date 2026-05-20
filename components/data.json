@@ -1,247 +1,364 @@
 {
-    "navbarItems": [
-        {
-            "href": "//#sobremi",
-            "text": "Sobre mí"
-        },
-        {
-            "href": "//#proyectos",
-            "text": "Proyectos"
-        },
-        {
-            "href": "//#contacto",
-            "text": "Contacto"
-        }
-    ],
-    "tecnologyItems": [
-        {
-            "icon": {
-                "src": "/portfolio/js01-svgrepo-com.svg",
-                "alt": "JavaScript Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/react-svgrepo-com.svg",
-                "alt": "React Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/nextjs-fill-svgrepo-com.svg",
-                "alt": "NextJS Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/python-127-svgrepo-com.svg",
-                "alt": "Python Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/java-svgrepo-com.svg",
-                "alt": "Java Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/mysql-svgrepo-com.svg",
-                "alt": "MySQL Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/docker-svgrepo-com.svg",
-                "alt": "Docker Icono"
-            }
-        },
-        {
-            "icon": {
-                "src": "/portfolio/ai-svgrepo-com.svg",
-                "alt": "AI Icono"
-            }
-        }
-    ],
-    "projectsItems": [
-        {
-            "image": {
-                "src": "/portfolio/rag-project.jpg",
-                "alt": "Proyecto RAG con agentes LLM"
-            },
-            "url": "/rag-project",
-            "title": "Proyecto de Prácticas - Sistema RAG con Agentes LLM",
-            "text": "Implementé un sistema Retrieval-Augmented Generation (RAG) usando agentes LLM para mejorar la consulta y recuperación de documentos empresariales, combinando técnicas de IA y gestión documental.",
-            "tags": [
-                {  
-                    "name": "OpenAI", 
-                    "url": "https://openai.com" 
-                },
-                {  
-                    "name": "LangGraph",
-                    "url": "https://langgraph.ai"
-                },
-                { 
-                    "name": "RAG",
-                    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
-                }
-            ]
-        },
-        {
-            "image": {
-                "src": "/portfolio/tfm.jpg",
-                "alt": "TFM - Traffic Accident Prediction"
-            },
-            "url": "/tfm",
-            "title": "TFM - Predicción de Accidentes de Tráfico",
-            "text": "Desarrollé un modelo predictivo utilizando técnicas de machine learning para anticipar la gravedad de accidentes de tráfico. El proyecto incluyó tratamiento de datos desbalanceados y optimización mediante GridSearch.",
-            "tags": [
-                { 
-                    "name": "Python", 
-                    "url": "https://www.python.org" 
-                },
-                { 
-                    "name": "XGBoost", 
-                    "url": "https://xgboost.ai"
-                },
-                { 
-                    "name": "Machine Learning", 
-                    "url": "https://en.wikipedia.org/wiki/Machine_learning"
-                }
-            ]
-        },
-        {
-            "image": {
-                "src": "/portfolio/fall-detector.jpg",
-                "alt": "TFG - FallDetector"
-            },
-            "url": "/tfg",
-            "title": "TFG - FallDetector",
-            "text": "Desarrollo de un sistema wearable que detecta caídas en personas mayores. Implementé y entrené una red neuronal que procesa datos de sensores inerciales en un reloj. La red neuronal detecta caídas y notifica a los familiares de inmediato. Finalizado con Matrícula de Honor.",
-            "tags": [
-                {
-                    "name": "Python",
-                    "url": "https://www.python.org"
-                },
-                {
-                    "name": "TensorFlow",
-                    "url": "https://www.tensorflow.org"
-                },
-                {
-                    "name": "Arduino",
-                    "url": "https://www.arduino.cc"
-                }
-            ]
-        },
-        {
-            "image": {
-                "src": "/portfolio/instante-eventos.png",
-                "alt": "Pagina Web All Instante Eventos 360"
-            },
-            "url": "https://www.allinstante360.com/",
-            "title": "Web - All Instante",
-            "text": "Desarrollé una página web para una empresa de eventos y alquiler de fotomatones 360. El proyecto se realizó utilizando Next.js y TailwindCSS para ofrecer una experiencia de usuario fluida y moderna.",
-            "tags": [
-                {
-                    "name": "Next.js",
-                    "url": "https://nextjs.org"
-                },
-                {
-                    "name": "TailwindCSS",
-                    "url": "https://tailwindcss.com"
-                }
-            ]
-        },
-        {
-            "image": {
-                "src": "/portfolio/artemis-canvas.jpg",
-                "alt": "Ecommerce ArtemisCanvas"
-            },
-            "url": "https://artemiscanvas.com/",
-            "title": "Artemis Canvas",
-            "text": "Creación de una tienda online de ropa con diseños artísticos. Además de la configuración de pasarelas de pago, API's externas y base de datos. Utilicé WordPress y WooCommerce para el desarrollo, junto con PHP y MySQL para la gestión de bases de datos y funcionalidades personalizadas.",
-            "tags": [
-                {
-                    "name": "WordPress",
-                    "url": "https://wordpress.org"
-                },
-                {
-                    "name": "WooCommerce",
-                    "url": "https://woocommerce.com"
-                },
-                {
-                    "name": "PHP",
-                    "url": "https://www.php.net"
-                },
-                {
-                    "name": "MySQL",
-                    "url": "https://www.mysql.com"
-                }
-            ]
-        }
-    ],
-    "experienceItems": [
-        {
-            "title": "Artificial Intelligence Engineer | Spai Innova",
-            "date": "Septiembre 2025 - Presente",
-            "description": "Lidero la implantación de soluciones de inteligencia artificial en productos existentes, desarrollando proyectos con agentes inteligentes y modelos LLM para optimizar procesos empresariales."
-        },
-                {
-            "title": "AI Engineering Intern | Sopra Steria",
-            "date": "Abril 2025 - Mayo 2025",
-            "description": "Prácticas de Máster enfocadas en sistemas RAG y agentes LLM, implementando soluciones de generación asistida por recuperación de información para mejorar consultas empresariales."
-        },
-        {
-            "title": "Java Software Developer | Spai Innova",
-            "date": "Noviembre 2024 - Septiembre 2025",
-            "description": "Desarrollo y mantenimiento de software utilizando Java para soluciones empresariales, participando en diferentes fases del ciclo de vida del software."
-        },
-        {
-            "title": "Desarrollador Web",
-            "date": "Junio 2024 - Agosto 2024",
-            "description": "Desarrollo web con Next.js y Tailwind CSS para empresa de eventos y alquiler de fotomatones."
-        },
-        {
-            "title": "Prácticas | PRiSE",
-            "date": "Noviembre 2023 - Enero 2024",
-            "description": "Implementación de Docker y migración de repositorios a Git. Automatización de CI/CD con GitLab y Bitbucket."
-        },
-        {
-            "title": "Desarrollador Web de Ecommerce",
-            "date": "Marzo 2022 - Julio 2023",
-            "description": "Desarrollo y lanzamiento de ecommerce en WordPress. Gestión de bases de datos relacionales. Diseño responsivo de interfaces de usuario para ecommerce."
-        }
-    ],
-    "actualProjectsItems": [
-        {
-            "image": {
-                "src": "/portfolio/imagenBarberia.jpg",
-                "alt": "Chatbot IA para Bufetes de Abogados"
-            },
-            "url": "#",
-            "title": "Chatbot SaaS para Bufetes con IA y RAG",
-            "text": {
-                "text1": "Actualmente desarrollo un SaaS innovador basado en inteligencia artificial, que combina agentes inteligentes y técnicas RAG para crear un chatbot avanzado.",
-                "text2": "Este chatbot está diseñado para bufetes de abogados, con conocimiento actualizado de toda la legislación española y una base sólida de jurisprudencia, optimizando la asistencia legal diaria."
-            },
-            "tags": [
-                {
-                    "name": "OpenAI",
-                    "url": "https://openai.com"
-                },
-                {
-                    "name": "LangGraph",
-                    "url": "https://langgraph.ai"
-                },
-                {
-                    "name": "RAG",
-                    "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
-                },
-                {
-                    "name": "Agentes Inteligentes",
-                    "url": "#"
-                }
-            ]
-        }
+  "navbarItems": [
+    { "href": "//#sobremi", "text": "Sobre mí" },
+    { "href": "//#experiencia", "text": "Experiencia" },
+    { "href": "//#proyectos", "text": "Proyectos" },
+    { "href": "//#contacto", "text": "Contacto" }
+  ],
+
+  "aboutSection": {
+    "name": "Manuel Martínez Bernal",
+    "title": "AI Software Engineer",
+    "subtitle": "Especializado en IA Generativa & Sistemas Multi-Agente",
+    "bio": "Ingeniero de software con expertise en arquitecturas agentic, LLMs y RAG systems. Actualmente trabajando en ALTEN Spain como Technical Consultant para Airbus, diseñando e implementando soluciones de IA generativa para automatización empresarial.",
+    "highlights": [
+      { "label": "Especialidad", "value": "IA Generativa" },
+      { "label": "Años Experiencia", "value": "4+" },
+      { "label": "Empresas", "value": "5+" }
     ]
+  },
+
+  "skillsCategories": [
+    {
+      "category": "IA Generativa",
+      "icon": "brain",
+      "items": [
+        "LangGraph",
+        "LangChain",
+        "OpenAI API",
+        "Prompt Engineering",
+        "RAG Systems",
+        "Agentes Inteligentes"
+      ]
+    },
+    {
+      "category": "Vector Databases",
+      "icon": "database",
+      "items": [
+        "Pinecone",
+        "ChromaDB",
+        "Qdrant"
+      ]
+    },
+    {
+      "category": "Backend & APIs",
+      "icon": "cog",
+      "items": [
+        "FastAPI",
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Node.js"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "icon": "palette",
+      "items": [
+        "React",
+        "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "category": "Data & ML",
+      "icon": "chart",
+      "items": [
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "XGBoost"
+      ]
+    },
+    {
+      "category": "DevOps",
+      "icon": "container",
+      "items": [
+        "Docker",
+        "Git",
+        "CI/CD",
+        "AWS",
+        "Linux"
+      ]
+    }
+  ],
+
+  "experienceItems": [
+    {
+      "id": 1,
+      "title": "AI Software Engineer",
+      "company": "ALTEN Spain",
+      "client": "Airbus",
+      "role": "Technical Consultant",
+      "date": "Enero 2026 - Presente",
+      "description": "Liderando proyectos de innovación con IA y automatización en el ecosistema corporativo de Airbus.",
+      "achievements": [
+        {
+          "title": "Chatbot Multiagente Avanzado",
+          "description": "Desarrollo de asistente conversacional con capacidades de procesamiento de datos, análisis de tablas y generación de visualizaciones interactivas"
+        },
+        {
+          "title": "Sistemas RAG Empresariales",
+          "description": "Arquitectura de recuperación y generación con integración de múltiples fuentes de datos corporativos"
+        },
+        {
+          "title": "Automatización Inteligente",
+          "description": "Implementación de pipelines de procesamiento y análisis automático para optimizar flujos de trabajo"
+        }
+      ],
+      "technologies": [
+        "LangGraph",
+        "OpenAI API",
+        "Django",
+        "Python",
+        "RAG Systems"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Artificial Intelligence Engineer",
+      "company": "SPAI Innova",
+      "role": "AI Engineer",
+      "date": "Julio 2025 - Diciembre 2025",
+      "description": "Diseño e implementación de sistemas RAG multi-agente y análisis inteligente para productos empresariales.",
+      "achievements": [
+        {
+          "title": "Arquitectura Multi-Agente",
+          "description": "Diseño de sistemas con agentes especializados para automatizar procesos y consultas inteligentes"
+        },
+        {
+          "title": "Análisis Avanzado de Datos",
+          "description": "Implementación de clustering y análisis semántico con validación automática mediante IA para detectar patrones y anomalías"
+        },
+        {
+          "title": "Aplicación Web con IA",
+          "description": "Desarrollo de interfaz integrada con recuperación de contexto y generación de respuestas inteligentes basadas en datos históricos"
+        }
+      ],
+      "technologies": [
+        "LangGraph",
+        "Pinecone",
+        "OpenAI",
+        "FastAPI",
+        "Next.js"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AI Engineering Intern",
+      "company": "Sopra Steria",
+      "role": "Prácticas",
+      "date": "Abril 2025 - Mayo 2025",
+      "description": "Desarrollo de sistema RAG multi-agente para gestión de RRHH.",
+      "achievements": [
+        {
+          "title": "RAG Multi-Agente RRHH",
+          "description": "3 agentes especializados automatizando consultas sobre empleados, políticas y procesos administrativos"
+        },
+        {
+          "title": "Base de Datos Vectorial",
+          "description": "Implementación con ChromaDB para búsqueda semántica de documentos de RRHH"
+        },
+        {
+          "title": "UI con Streamlit",
+          "description": "Interfaz interactiva para pruebas y demostración de capacidades"
+        }
+      ],
+      "technologies": [
+        "LangGraph",
+        "ChromaDB",
+        "Streamlit",
+        "Python",
+        "RAG"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Java Software Developer",
+      "company": "SPAI Innova",
+      "role": "Developer",
+      "date": "Noviembre 2024 - Julio 2025",
+      "description": "Desarrollo y mantenimiento de software empresarial con metodologías ágiles.",
+      "achievements": [
+        {
+          "title": "Desarrollo Enterprise",
+          "description": "Implementación de módulos en aplicaciones empresariales complejas"
+        },
+        {
+          "title": "Metodología Scrum",
+          "description": "Participación en sprints de 2 semanas con revisiones y retrospectivas"
+        }
+      ],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Git"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Prácticas",
+      "company": "PRiSE",
+      "role": "Intern",
+      "date": "Noviembre 2023 - Enero 2024",
+      "description": "DevOps y automatización de CI/CD.",
+      "achievements": [
+        {
+          "title": "Docker & Containerización",
+          "description": "Implementación de contenedores para standardizar ambientes"
+        },
+        {
+          "title": "Migración a Git",
+          "description": "Migración de repositorios y setup de workflows en Git"
+        },
+        {
+          "title": "CI/CD Pipelines",
+          "description": "Configuración de pipelines automáticos en GitLab y Bitbucket"
+        }
+      ],
+      "technologies": [
+        "Docker",
+        "Git",
+        "GitLab",
+        "CI/CD"
+      ]
+    }
+  ],
+
+  "featuredProjects": [
+    {
+      "id": 1,
+      "title": "TFG - FallDetector",
+      "subtitle": "Matrícula de Honor",
+      "url": "/tfg",
+      "image": {
+        "src": "/portfolio/fall-detector.jpg",
+        "alt": "FallDetector - Sistema de detección de caídas"
+      },
+      "description": "Sistema wearable de detección de caídas con red neuronal entrenada sobre +4M de registros de sensores inerciales. Alcanzó 92% de precisión en detección de eventos.",
+      "fullDescription": "Desarrollo completo de un dispositivo portátil capaz de detectar caídas en tiempo real. Hardware con sensores IMU integrado con software de procesamiento de señales y red neuronal profunda.",
+      "results": {
+        "accuracy": "92%",
+        "dataset": "+4M registros",
+        "grade": "Calificación destacada"
+      },
+      "technologies": [
+        "TensorFlow",
+        "Python",
+        "Flask",
+        "C/C++",
+        "Arduino"
+      ],
+      "tags": [
+        { "name": "TensorFlow", "url": "https://www.tensorflow.org" },
+        { "name": "Python", "url": "https://www.python.org" },
+        { "name": "Arduino", "url": "https://www.arduino.cc" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "TFM - Predicción de Accidentes",
+      "subtitle": "Visual Analytics & Big Data",
+      "url": "/tfm",
+      "image": {
+        "src": "/portfolio/predictions.png",
+        "alt": "TFM - Predicción de gravedad de accidentes de tráfico"
+      },
+      "description": "Modelo predictivo con XGBoost para anticipar la gravedad de accidentes de tráfico. Incluye tratamiento de datos desbalanceados, optimización mediante GridSearchCV y análisis geoespacial.",
+      "fullDescription": "Proyecto de máster enfocado en predicción de eventos con datos desbalanceados. Implementación completa de pipeline de ML con preprocesamiento, feature engineering y validación robusta.",
+      "results": {
+        "accuracy": "Optimización mediante GridSearchCV",
+        "techniques": "SMOTE para desbalance"
+      },
+      "technologies": [
+        "XGBoost",
+        "Scikit-learn",
+        "Python",
+        "Pandas",
+        "Geospatial Analysis"
+      ],
+      "tags": [
+        { "name": "XGBoost", "url": "https://xgboost.ai" },
+        { "name": "Scikit-learn", "url": "https://scikit-learn.org" },
+        { "name": "Python", "url": "https://www.python.org" }
+      ]
+    }
+  ],
+
+  "chatbotSection": {
+    "title": "Asistente IA",
+    "subtitle": "Pregúntame sobre mi experiencia, proyectos y habilidades",
+    "description": "Este portfolio incluye un asistente IA inteligente construido con arquitectura multi-agente. Puede responder preguntas sobre mi trayectoria, expertise técnico, proyectos realizados y habilidades profesionales.",
+    "features": [
+      {
+        "icon": "briefcase",
+        "title": "Experiencia Laboral",
+        "description": "Acceso detallado a toda mi trayectoria profesional, empresas y logros en cada posición"
+      },
+      {
+        "icon": "cpu",
+        "title": "Especialidad en IA",
+        "description": "Información completa sobre mi expertise en IA generativa, LangGraph, RAG systems y agentes inteligentes"
+      },
+      {
+        "icon": "folder",
+        "title": "Proyectos Específicos",
+        "description": "Detalles técnicos sobre trabajos realizados, tecnologías usadas y resultados logrados"
+      },
+      {
+        "icon": "tools",
+        "title": "Stack Técnico",
+        "description": "Descripción de skills técnicas, herramientas, lenguajes y frameworks que domino"
+      }
+    ],
+    "techStack": {
+      "title": "Arquitectura del Asistente",
+      "components": [
+        {
+          "layer": "Frontend",
+          "tech": ["Next.js", "React", "Streaming UI", "Markdown Rendering"]
+        },
+        {
+          "layer": "Backend",
+          "tech": ["FastAPI", "LangGraph", "Python", "Async Processing"]
+        },
+        {
+          "layer": "LLM",
+          "tech": ["Groq API", "gpt-oss-120b", "Structured Tool Calling"]
+        },
+        {
+          "layer": "Herramientas",
+          "tech": ["RAG Systems", "Dynamic Context Loading", "Multi-Agent Orchestration"]
+        }
+      ]
+    },
+    "cta": "¡Pruébalo arriba! Intenta preguntas como: '¿Qué sabes de IA generativa?', '¿Dónde trabajas?', '¿Cuál es tu especialidad?'"
+  },
+
+  "contactSection": {
+    "title": "Contacto",
+    "subtitle": "¿Interesado en colaborar?",
+    "email": "manolomartinezbernal@gmail.com",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com",
+        "icon": "github"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://linkedin.com",
+        "icon": "linkedin"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:manolomartinezbernal@gmail.com",
+        "icon": "email"
+      }
+    ]
+  }
 }
