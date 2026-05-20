@@ -6,15 +6,7 @@ import remarkGfm from 'remark-gfm';
 
 // Función auxiliar para generar un ID de sesión simple
 const generateSessionId = () => {
-  if (typeof window !== 'undefined') {
-    let sessionId = localStorage.getItem('chat_session_id');
-    if (!sessionId) {
-      sessionId = Math.random().toString(36).substring(2) + Date.now().toString(36);
-      localStorage.setItem('chat_session_id', sessionId);
-    }
-    return sessionId;
-  }
-  return 'session-' + Date.now();
+  return Math.random().toString(36).substring(2) + Date.now().toString(36);
 };
 
 export default function EmbeddedChat() {
@@ -31,10 +23,10 @@ export default function EmbeddedChat() {
   useEffect(() => {
     setSessionId(generateSessionId());
 
-    // Cargar configuración del backend desde config.json
+    // Cargar configuración del backend desde config.json (con basePath)
     const loadConfig = async () => {
       try {
-        const response = await fetch('/config.json');
+        const response = await fetch('/portfolio/config.json');
         const config = await response.json();
         setApiUrl(config.apiUrl);
       } catch (error) {

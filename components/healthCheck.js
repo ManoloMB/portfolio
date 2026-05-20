@@ -6,8 +6,8 @@ export default function HealthCheck() {
   useEffect(() => {
     const wakeUpBackend = async () => {
       try {
-        // Leer configuración desde config.json
-        const configResponse = await fetch('/config.json');
+        // Leer configuración desde config.json (con basePath)
+        const configResponse = await fetch('/portfolio/config.json');
         const config = await configResponse.json();
         const apiUrl = config.apiUrl;
 
