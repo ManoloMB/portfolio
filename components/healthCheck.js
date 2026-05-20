@@ -6,7 +6,11 @@ export default function HealthCheck() {
   useEffect(() => {
     const wakeUpBackend = async () => {
       try {
-        const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+        // Leer configuración desde config.json
+        const configResponse = await fetch('/config.json');
+        const config = await configResponse.json();
+        const apiUrl = config.apiUrl;
+
         const response = await fetch(`${apiUrl}/api/health`, {
           method: 'GET',
           headers: {
