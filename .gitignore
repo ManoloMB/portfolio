@@ -49,6 +49,11 @@ next-env.d.ts
 *.temp
 .tmp/
 
+# Documentation (keep README.md)
+*.md
+!README.md
+!CHANGELOG.md
+
 # OS files
 Thumbs.db
 .DS_Store
