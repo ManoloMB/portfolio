@@ -23,10 +23,10 @@ export default function EmbeddedChat() {
   useEffect(() => {
     setSessionId(generateSessionId());
 
-    // Cargar configuración del backend desde config.json (con basePath)
+    // Cargar configuración del backend desde config.json
     const loadConfig = async () => {
       try {
-        const response = await fetch('/portfolio/config.json');
+        const response = await fetch('./config.json');
         const config = await response.json();
         setApiUrl(config.apiUrl);
       } catch (error) {
