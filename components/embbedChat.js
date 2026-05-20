@@ -24,11 +24,26 @@ export default function EmbeddedChat() {
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
   const [sessionId, setSessionId] = useState('');
-  
+  const [apiUrl, setApiUrl] = useState('http://localhost:8000');
+
   const chatContainerRef = useRef(null);
 
   useEffect(() => {
     setSessionId(generateSessionId());
+
+    // Cargar configuración del backend desde config.json
+    const loadConfig = async () => {
+      try {
+        const response = await fetch('/config.json');
+        const config = await response.json();
+        setApiUrl(config.apiUrl);
+      } catch (error) {
+        console.warn('No se pudo cargar config.json, usando localhost:', error);
+        setApiUrl('http://localhost:8000');
+      }
+    };
+
+    loadConfig();
   }, []);
 
   const scrollToBottom = () => {
@@ -67,9 +82,7 @@ export default function EmbeddedChat() {
         content: msg.content
       }));
 
-      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
-      
-      const response = await fetch(`${baseUrl}/api/chat`, {
+      const response = await fetch(`${apiUrl}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
