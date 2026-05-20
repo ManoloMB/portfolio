@@ -27,18 +27,18 @@ export default function ContactSection({ data }) {
     };
 
     return (
-        <section id="contacto" className='py-10'>
+        <section id="contacto" className='py-10 px-4'>
             <h2 className="font-bold text-3xl mb-2 text-center">{data.title}</h2>
             <p className="text-sm text-slate-400 text-center mb-2">{data.subtitle}</p>
             <div className="w-16 h-1 bg-cyan-400 rounded mx-auto mb-12"></div>
 
             <div className="max-w-2xl mx-auto">
                 {/* Email prominente */}
-                <div className="bg-gradient-to-r from-cyan-500/10 to-slate-900/60 border border-cyan-500/30 rounded-2xl p-8 mb-8 text-center hover:border-cyan-500/50 transition-colors duration-300">
-                    <p className="text-slate-400 mb-2">Contacto directo:</p>
+                <div className="bg-gradient-to-r from-cyan-500/10 to-slate-900/60 border border-cyan-500/30 rounded-2xl p-4 sm:p-8 mb-8 text-center hover:border-cyan-500/50 transition-colors duration-300 overflow-hidden">
+                    <p className="text-slate-400 mb-2 text-sm">Contacto directo:</p>
                     <a
                         href={`mailto:${data.email}`}
-                        className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors duration-200"
+                        className="text-lg sm:text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors duration-200 break-all"
                     >
                         {data.email}
                     </a>

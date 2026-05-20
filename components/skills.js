@@ -1,7 +1,15 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import { Palette, Server, Wrench, Brain } from "lucide-react"
 import skillsData from "@/components/skills.json"
+
+const iconMap = {
+  Palette,
+  Server,
+  Wrench,
+  Brain,
+}
 
 export default function Skills() {
   const [hoveredIndex, setHoveredIndex] = useState(null)
@@ -28,7 +36,7 @@ export default function Skills() {
   const categories = skillsData.categories
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 py-20 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 py-20 relative overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div
@@ -62,11 +70,14 @@ export default function Skills() {
               >
                 <div className="flex items-center gap-1 mb-6">
                   <div
-                    className={`text-3xl transition-all duration-300 ${
+                    className={`transition-all duration-300 ${
                       hoveredIndex === index ? "scale-110 rotate-12" : "scale-100 rotate-0"
                     }`}
                   >
-                    {category.icon}
+                    {(() => {
+                      const IconComponent = iconMap[category.icon]
+                      return IconComponent ? <IconComponent size={32} className="text-cyan-500" /> : null
+                    })()}
                   </div>
                   <h3
                     className={`text-xl font-bold transition-colors duration-300 ${

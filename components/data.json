@@ -236,7 +236,7 @@
       "subtitle": "Matrícula de Honor",
       "url": "/tfg",
       "image": {
-        "src": "/portfolio/fall-detector.jpg",
+        "src": "/portfolio/fall-detector.png",
         "alt": "FallDetector - Sistema de detección de caídas"
       },
       "description": "Sistema wearable de detección de caídas con red neuronal entrenada sobre +4M de registros de sensores inerciales. Alcanzó 92% de precisión en detección de eventos.",

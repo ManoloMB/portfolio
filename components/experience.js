@@ -2,11 +2,11 @@
 
 export default function Experience({ items }) {
     return (
-        <div id="experiencia" className='items-center justify-center py-10'>
+        <div id="experiencia" className='items-center justify-center py-10 px-4'>
             <h2 className="font-bold text-3xl text-center mb-2">Experiencia</h2>
             <div className="w-16 h-1 bg-cyan-400 rounded mx-auto mb-12"></div>
 
-            <div className="relative">
+            <div className="relative max-w-4xl mx-auto">
                 {/* Timeline vertical line */}
                 <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-400 to-slate-700 hidden sm:block"></div>
 

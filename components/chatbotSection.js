@@ -6,12 +6,12 @@ export default function ChatbotSection({ data }) {
     if (!data) return null;
 
     return (
-        <section className='py-10'>
+        <section className='py-10 px-4'>
             <h2 className="font-bold text-3xl mb-2 text-center">{data.title}</h2>
             <p className="text-sm text-slate-400 text-center mb-2">{data.subtitle}</p>
             <div className="w-16 h-1 bg-cyan-400 rounded mx-auto mb-12"></div>
 
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl mx-auto w-full">
                 {/* Descripción */}
                 <p className="text-slate-300 leading-relaxed mb-10 text-center">
                     {data.description}

@@ -4,12 +4,12 @@ import { getIcon } from './Icons';
 
 export default function Tecnology({ skillsCategories }) {
     return (
-        <section id="tecnologia" className='text-center py-10'>
+        <section id="tecnologia" className='text-center py-10 px-4'>
             <h2 className="font-bold text-3xl mb-2 text-center">Skills Técnicas</h2>
             <div className="w-16 h-1 bg-cyan-400 rounded mx-auto mb-12"></div>
 
             {/* Grid de categorías con emojis */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left max-w-6xl mx-auto">
                 {skillsCategories && skillsCategories.map((category, i) => (
                     <div
                         key={i}

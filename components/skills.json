@@ -2,23 +2,23 @@
   "categories": [
     {
       "category": "Frontend",
-      "icon": "🎨",
+      "icon": "Palette",
       "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vue.js"]
     },
     {
       "category": "Backend",
-      "icon": "⚙️",
+      "icon": "Server",
       "skills": ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"]
     },
     {
       "category": "DevOps & Tools",
-      "icon": "🔧",
+      "icon": "Wrench",
       "skills": ["Docker", "AWS", "Git", "CI/CD", "Linux"]
     },
     {
-      "category": "Soft Skills",
-      "icon": "👥",
-      "skills": ["Leadership", "Communication", "Problem Solving", "Mentoring", "Agile"]
+      "category": "AI & ML",
+      "icon": "Brain",
+      "skills": ["LangChain", "LangGraph", "RAG", "OpenAI API", "Prompt Engineering"]
     }
   ]
 }

@@ -6,11 +6,11 @@ import { useRouter } from 'next/navigation';
 export default function FeaturedProjects({ items }) {
     const router = useRouter();
     return (
-        <section id="proyectos" className='text-center py-10'>
+        <section id="proyectos" className='text-center py-10 px-4'>
             <h2 className="font-bold text-3xl mb-2 text-center">Proyectos Destacados</h2>
             <div className="w-16 h-1 bg-cyan-400 rounded mx-auto mb-12"></div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 {items && items.map((project) => (
                     <div
                         key={project.id}
