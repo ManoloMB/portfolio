@@ -7,11 +7,13 @@ import ChatbotSection from '@/components/chatbotSection';
 import ContactSection from '@/components/contactSection';
 import EmbeddedChat from '@/components/embbedChat';
 import ScrollReveal from '@/components/scrollReveal';
+import HealthCheck from '@/components/healthCheck';
 import data from '@/components/data.json';
 
 export default function Home() {
   return (
     <div>
+      <HealthCheck />
       <Navbar items={data.navbarItems} />
       <main className='max-w-screen-lg px-10 mx-auto'>
 
